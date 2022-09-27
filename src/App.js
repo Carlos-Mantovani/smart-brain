@@ -1,5 +1,7 @@
 import Navigation from './components/Navigation/Navigation';
 import Logo from './components/Logo/Logo';
+import ImageUrlForm from './components/ImageUrlForm/ImageUrlForm';
+import Rank from './components/Rank/Rank';
 import './App.css';
 
 function App() {
@@ -7,8 +9,9 @@ function App() {
     <div className="App">
       <Navigation />
       <Logo />
-      {/*<ImageUrlForm />
-  <FaceRecognition />*/}
+      <Rank />
+      <ImageUrlForm />
+      {/*<FaceRecognition />*/}
     </div>
   );
 }
